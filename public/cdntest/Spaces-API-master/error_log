@@ -1,0 +1,12 @@
+[10-Jun-2020 09:01:48 UTC] PHP Fatal error:  Uncaught SpacesAPIException: {"error":{"message":null,"code":null,"type":null,"http_code":null}} in /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/spaces.php:510
+Stack trace:
+#0 /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/spaces.php(321): SpacesConnect->HandleAWSException(Object(Aws\S3\Exception\S3Exception))
+#1 /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/index.php(24): SpacesConnect->DownloadFile('image.jpg', 'folder/download...')
+#2 {main}
+  thrown in /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/spaces.php on line 510
+[10-Jun-2020 10:23:02 UTC] PHP Fatal error:  Uncaught SpacesAPIException: {"error":{"message":null,"code":null,"type":null,"http_code":null}} in /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/spaces.php:510
+Stack trace:
+#0 /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/spaces.php(321): SpacesConnect->HandleAWSException(Object(Aws\S3\Exception\S3Exception))
+#1 /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/index.php(24): SpacesConnect->DownloadFile('image.jpg', 'folder/download...')
+#2 {main}
+  thrown in /home/loot/public_html/cutie-app-adminpanel/public/cdntest/Spaces-API-master/spaces.php on line 510
